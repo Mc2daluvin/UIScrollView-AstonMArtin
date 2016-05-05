@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB434D21CD9AFBD00BE69ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB434D11CD9AFBD00BE69ED /* AppDelegate.swift */; };
+		7EB434D41CD9AFBD00BE69ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB434D31CD9AFBD00BE69ED /* ViewController.swift */; };
+		7EB434D71CD9AFBD00BE69ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB434D51CD9AFBD00BE69ED /* Main.storyboard */; };
+		7EB434D91CD9AFBD00BE69ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB434D81CD9AFBD00BE69ED /* Assets.xcassets */; };
+		7EB434DC1CD9AFBD00BE69ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB434DA1CD9AFBD00BE69ED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EB434CE1CD9AFBD00BE69ED /* AstonMartinscrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstonMartinscrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB434D11CD9AFBD00BE69ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EB434D31CD9AFBD00BE69ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EB434D61CD9AFBD00BE69ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EB434D81CD9AFBD00BE69ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB434DB1CD9AFBD00BE69ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EB434DD1CD9AFBD00BE69ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EB434CB1CD9AFBD00BE69ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB434C51CD9AFBD00BE69ED = {
+			isa = PBXGroup;
+			children = (
+				7EB434D01CD9AFBD00BE69ED /* AstonMartinscrollView */,
+				7EB434CF1CD9AFBD00BE69ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB434CF1CD9AFBD00BE69ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EB434CE1CD9AFBD00BE69ED /* AstonMartinscrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EB434D01CD9AFBD00BE69ED /* AstonMartinscrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7EB434D11CD9AFBD00BE69ED /* AppDelegate.swift */,
+				7EB434D31CD9AFBD00BE69ED /* ViewController.swift */,
+				7EB434D51CD9AFBD00BE69ED /* Main.storyboard */,
+				7EB434D81CD9AFBD00BE69ED /* Assets.xcassets */,
+				7EB434DA1CD9AFBD00BE69ED /* LaunchScreen.storyboard */,
+				7EB434DD1CD9AFBD00BE69ED /* Info.plist */,
+			);
+			path = AstonMartinscrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EB434CD1CD9AFBD00BE69ED /* AstonMartinscrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB434E01CD9AFBD00BE69ED /* Build configuration list for PBXNativeTarget "AstonMartinscrollView" */;
+			buildPhases = (
+				7EB434CA1CD9AFBD00BE69ED /* Sources */,
+				7EB434CB1CD9AFBD00BE69ED /* Frameworks */,
+				7EB434CC1CD9AFBD00BE69ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstonMartinscrollView;
+			productName = AstonMartinscrollView;
+			productReference = 7EB434CE1CD9AFBD00BE69ED /* AstonMartinscrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EB434C61CD9AFBD00BE69ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Good Rock Apps LLC";
+				TargetAttributes = {
+					7EB434CD1CD9AFBD00BE69ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7EB434C91CD9AFBD00BE69ED /* Build configuration list for PBXProject "AstonMartinscrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EB434C51CD9AFBD00BE69ED;
+			productRefGroup = 7EB434CF1CD9AFBD00BE69ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EB434CD1CD9AFBD00BE69ED /* AstonMartinscrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EB434CC1CD9AFBD00BE69ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB434DC1CD9AFBD00BE69ED /* LaunchScreen.storyboard in Resources */,
+				7EB434D91CD9AFBD00BE69ED /* Assets.xcassets in Resources */,
+				7EB434D71CD9AFBD00BE69ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EB434CA1CD9AFBD00BE69ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB434D41CD9AFBD00BE69ED /* ViewController.swift in Sources */,
+				7EB434D21CD9AFBD00BE69ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EB434D51CD9AFBD00BE69ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB434D61CD9AFBD00BE69ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EB434DA1CD9AFBD00BE69ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB434DB1CD9AFBD00BE69ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EB434DE1CD9AFBD00BE69ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EB434DF1CD9AFBD00BE69ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EB434E11CD9AFBD00BE69ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AstonMartinscrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodrockapps.AstonMartinscrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EB434E21CD9AFBD00BE69ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AstonMartinscrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodrockapps.AstonMartinscrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EB434C91CD9AFBD00BE69ED /* Build configuration list for PBXProject "AstonMartinscrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB434DE1CD9AFBD00BE69ED /* Debug */,
+				7EB434DF1CD9AFBD00BE69ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB434E01CD9AFBD00BE69ED /* Build configuration list for PBXNativeTarget "AstonMartinscrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB434E11CD9AFBD00BE69ED /* Debug */,
+				7EB434E21CD9AFBD00BE69ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EB434C61CD9AFBD00BE69ED /* Project object */;
+}
